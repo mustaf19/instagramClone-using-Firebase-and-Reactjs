@@ -1,0 +1,64 @@
+.post{
+    width: 100%;
+    max-width: 750px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 19%);
+}
+
+.postimg{
+    object-fit: contain;
+     width: 100%;
+     min-width: auto;
+} 
+
+.postheader{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    /* margin: auto; */
+
+}
+
+.postfooter{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.postcommment{
+    padding: 5px;
+
+}
+
+
+.comment{
+    font-weight: normal;
+    padding: 10px;
+    padding-top: 0;
+    padding-left: 15px;
+    line-height: 1.1rem;
+}
+
+.buttonPost{
+        flex: 0;
+        border: none;
+        color: #1870c7 !important;
+        background-color: transparent;
+
+}
+.postCommentBox{
+    display: flex;
+    margin-bottom: 5px;
+    border-top: 1px solid lightgray;
+    padding-top: 3px;
+}
+.inputPost{
+    flex: 1;
+    border: none;
+    background: none;
+    padding: 10px;
+}

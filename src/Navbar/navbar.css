@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.unlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .list {
+    float: left;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  .navbar_button{
+    display: block;
+    float: right;
+    margin: 10px;
+    border: 0;
+    background-color: burlywood;
+    color: aliceblue;
+    max-width: 100px;
+    height: 50px;
+    font-size: large;
+  }
+  
